@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Bebida">
+    <meta name="descripcion" content="Un proyecto HTML sobre Coca Cola">
+    <meta name="keywords" content="bebida, coca cola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coca Cola</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.js"
+        integrity="sha512-jdM4CX13QmorrIpE3U+2hOxEO+j6hy9nZFUMIIC8LvNS699p7mxonP7z//UnPGs3Vkn299GKD9FWN60m1tZGxg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="">
+                <img src="img/logo.svg" alt="Logo Coca Cola" class="logo">
+            </a>
+
+            <nav>
+                <a href="#Inicio">Inicio</a>
+                <a href="#Nosotros">Nosotros</a>
+                <a href="#Servicios">Servicios</a>
+                <a href="#Galeria">Galería</a>
+                <a href="#Contactenos">Contáctenos</a>
+            </nav>
+            <a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+    <main>
+        <section id="Inicio" class="section">
+            <img src="img/bannerprincipal.jpg" alt="Banner del Inicio">
+            <div class="bloque-inicio">
+                <h1>Bienvenidos a Coca Cola</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#Servicios" class="boton boton-rojo"> Ver Más</a>
+            </div>
+        </section>
+
+        <section id="Nosotros" class="section">
+            <div class="container">
+                <h1>Nosotros</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo vero consectetur architecto vitae atque
+                    doloribus sapiente laborum veritatis ratione amet, neque molestias repellendus culpa qui, optio
+                    debitis
+                    eaque velit distinctio?</p>
+            </div>
+        </section>
+
+        <section id="Servicios" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="img/servicio6.jpg" alt="Primer Servicio">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h2>Servicio 1</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid
+                                    expedita
+                                    obcaecati quibusdam nam nostrum esse, amet quis quaerat quasi voluptas tempora
+                                    voluptatem dolores dicta iusto facere sint labore. Enim.</p>
+                                <a href="#" class="boton boton-blanco">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="img/servicio2.jpg" alt="Segundo Servicio">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h2>Servicio 2</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid expedita
+                                    obcaecati quibusdam nam nostrum esse, amet quis quaerat quasi voluptas tempora
+                                    voluptatem dolores dicta iusto facere sint labore. Enim.</p>
+                                <a href="#" class="boton boton-blanco">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columna columna-33 columna-mobile-100">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio cuadrado-perfecto">
+                                <img src="img/servicio3.jpg" alt="Tercer Servicio">
+                            </div>
+                            <div class="bloque-contenido-servicio">
+                                <h2>Servicio 3</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid
+                                    expedita
+                                    obcaecati quibusdam nam nostrum esse, amet quis quaerat quasi voluptas tempora
+                                    voluptatem dolores dicta iusto facere sint labore. Enim.</p>
+                                <a href="#" class="boton boton-blanco">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section id="Galeria">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio4.jpg" alt="Galeria 1">
+                            <h3>Imagen 1</h3>
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio5.jpg" alt="Galeria 2">
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio6.jpg" alt="Galeria 3">
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio1.jpg" alt="Galeria 4">
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio2.jpg" alt="Galeria 5">
+                        </div>
+                    </div>
+                    <div class="columna-33 columna-mobile-50">
+                        <div class="cuadrado-perfecto">
+                            <img src="img/servicio3.jpg" alt="Galeria 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contactenos" class="section">
+
+            <iframe width="520" height="400" frameborder="0" id="gmap_canvas"
+                src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Madrid%20colombia+(Madrid)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="columna columna-41 columna-mobile-100 empujar-58 empujar-mobile-0 sinpadding-mobile">
+                        <form action="index.php" method="post">
+                            <div class="form-block">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail">
+                            </div>
+                            <div class="form-block">
+                                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input type="submit" class="boton boton-negro" value="Enviar">
+                            </div>
+                            <?php
+                                if($_SERVER ["REQUEST_METHOD"] == "POST"){
+                                    $nombre = $_POST["nombre"];
+                                    $email  = $_POST["email"];
+                                    $mensaje = $_POST["mensaje"];
+
+                                    if(isset($nombre)){
+                                        if(isset($email)){
+                                            if(isset($mensaje)){
+                                                $para = "oliverchemas777@gmail.com";
+                                                $asunto = "Esto es una prueba";
+                                                $cuerpo = $nombre."\n".$email."\n".$mensaje;
+                                                $adicional = "From : noreply@OliverBorda.com";
+
+                                                mail($para, $asunto, $mensaje, $adicional);
+                                            ?>
+                                                <p>Envio Exitoso</p>
+                                            <?php
+                                            }
+                                        }
+                                    }
+                                }
+                            ?>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="columna columna-25 columna-mobile-100">
+                    <img src="img/logo-blanco.png" alt="Logo Footer" class="logo-footer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non numquam aliquid, sint, aliquam et
+                    </p>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h4>Relacionados</h4>
+                    <ul>
+                        <li><a href="#"></a>Tema 1</li>
+                        <li><a href="#"></a>Tema 2</li>
+                        <li><a href="#"></a>Tema 3</li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h4>Datos de Contacto</h4>
+                    <ul>
+                        <li><a href="#"></a>servicioacl@cocacola.com</li>
+                        <li><a href="#"></a>+5187654321</li>
+                        <li><a href="#"></a>AV. Cra 45 # 103 - 60 Piso 8 Bogotá - Distrito Capital.</li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h4>Redes Sociales</h4>
+                    <ul class="redes">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="barra-footer">
+            &copy; Derechos Reservados - 2023
+        </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/funciones.js"></script>
+</body>
+
+</html>
