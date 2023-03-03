@@ -172,29 +172,6 @@
                             <div class="form-block bloque-ultimo">
                                 <input type="submit" class="boton boton-negro" value="Enviar">
                             </div>
-                            <?php
-                                if($_SERVER ["REQUEST_METHOD"] == "POST"){
-                                    $nombre = $_POST["nombre"];
-                                    $email  = $_POST["email"];
-                                    $mensaje = $_POST["mensaje"];
-
-                                    if(isset($nombre)){
-                                        if(isset($email)){
-                                            if(isset($mensaje)){
-                                                $para = "oliverchemas777@gmail.com";
-                                                $asunto = "Esto es una prueba";
-                                                $cuerpo = $nombre."\n".$email."\n".$mensaje;
-                                                $adicional = "From : noreply@OliverBorda.com";
-
-                                                mail($para, $asunto, $mensaje, $adicional);
-                                            ?>
-                                                <p>Envio Exitoso</p>
-                                            <?php
-                                            }
-                                        }
-                                    }
-                                }
-                            ?>
                     </div>
                 </div>
             </div>
